@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+}
+
+main {
+    max-width: 1280px;
+    min-height: 80vh;
+    margin: auto;
+}
+
+a {
+    @apply text-primary;
+}
